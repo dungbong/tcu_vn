@@ -1,0 +1,68 @@
+.button {
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    width: 400px;
+    height: 170px;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Consolas", Times, serif;
+    font-weight: bold;
+  }
+  
+.button:hover {opacity: 1}
+  
+.button1 {background-color: #555555;}
+.button2 {background-color: #FF8100;}
+.button3 {background-color: #008CBA;}
+.button4 {background-color: #F7311e;}
+
+.centera {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: White;
+    font-size: 70px;
+    font-family: "Consolas", Times, serif;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+td {
+    width: 430px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+body, html {
+    height: 30%;
+}
+  
+.bg { 
+    /* The image used */
+    background-image: url("background.gif");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
